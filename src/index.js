@@ -3,7 +3,7 @@ const readline = require("readline");
 const CommandFactory = require("./components/factories/CommandFactory");
 
 const rl = readline.createInterface({
-  input: fs.createReadStream("file_input.txt"),
+  input: fs.createReadStream("functional_spec/fixtures/file_input.txt"),
   output: process.stdout,
   terminal: false,
 });
